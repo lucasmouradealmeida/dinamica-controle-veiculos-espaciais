@@ -5,8 +5,7 @@ m1_i = [-0.3473 0.9363 0.0527]';
 m1_b = [-0.1363 0.9510 0.2778]';
 
 triad_sat1 = triad(s1_i, s1_b, m1_i, m1_b);
-quaternion_sat1 = quaternion(s1_i, s1_b, m1_i, m1_b);
-
+q_method_sat1 = q_method(s1_i, s1_b, m1_i, m1_b);
 
 
 # Satélite 2
@@ -17,4 +16,4 @@ m2_b = [-0.1406 0.9519 0.2724]';
 
 
 triad_sat2 = triad(s2_i, s2_b, m2_i, m2_b);
-quaternion_sat2 = quaternion(s2_i, s2_b, m2_i, m2_b);
+q_method_sat1 = q_method(s2_i, s2_b, m2_i, m2_b);
