@@ -1,4 +1,4 @@
-function eul = quat2eul( q, varargin )
+function eul = quad2eul( q, varargin )
 %QUAT2EUL Convert quaternion to Euler angles
 %   EUL = QUAT2EUL(Q) converts a unit quaternion rotation into the corresponding 
 %   Euler angles. The input, Q, is a 4-by-N matrix containing N quaternions. 
