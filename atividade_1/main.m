@@ -5,6 +5,7 @@ m1_i = [-0.3473 0.9363 0.0527]';
 m1_b = [-0.1363 0.9510 0.2778]';
 
 triad_sat1 = triad(s1_i, s1_b, m1_i, m1_b);
+quat = quaternion(triad_sat1);
 q_method_sat1 = q_method(s1_i, s1_b, m1_i, m1_b);
 
 

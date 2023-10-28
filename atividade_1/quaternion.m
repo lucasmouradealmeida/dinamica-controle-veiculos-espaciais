@@ -11,5 +11,5 @@ function [result] = quaternion(R)
     q2 /= magnitude
     q3 /= magnitude
 
-    %quat2eul
+    result = quad2eul([q0, q1, q2, q3], 'ZXY')
 end
